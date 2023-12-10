@@ -17,7 +17,7 @@ namespace TestNinja.UnitTests
         }
 
         [Test]
-        [Ignore("因為我們想要測試的是Add方法，所以這個測試方法不需要")]
+        //[Ignore("因為我們想要測試的是Add方法，所以這個測試方法不需要")]
         public void Add_WhenCalled_ReturnTheSumOfArgfuments()
         {
             var result = _math.Add(1, 2);
