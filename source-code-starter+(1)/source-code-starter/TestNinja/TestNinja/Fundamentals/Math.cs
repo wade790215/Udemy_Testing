@@ -16,6 +16,7 @@ namespace TestNinja.Fundamentals
             return (a > b) ? a : b;
         }
 
+        //這樣會自動做出IEnumerable<int>的型別
         public IEnumerable<int> GetOddNumbers(int limit)
         {
             for (var i = 0; i <= limit; i++)
